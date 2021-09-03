@@ -1,0 +1,4 @@
+.hipervinculable:hover {
+        -fx-font-weight: bold;
+        -fx-font-color:#00FFFF;
+}

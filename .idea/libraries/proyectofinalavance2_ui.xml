@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="proyectofinalavance2_ui">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../proyectofinalavance2_bl/out/artifacts/proyectofinalavance2_ui_jar/proyectofinalavance2_ui.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../proyectofinalavance2_bl/out/artifacts/proyectofinalavance2_ui_jar/proyectofinalavance2_ui.jar!/javafx.base" />
+      <root url="jar://$PROJECT_DIR$/../proyectofinalavance2_bl/out/artifacts/proyectofinalavance2_ui_jar/proyectofinalavance2_ui.jar!/javafx.controls" />
+      <root url="jar://$PROJECT_DIR$/../proyectofinalavance2_bl/out/artifacts/proyectofinalavance2_ui_jar/proyectofinalavance2_ui.jar!/javafx.fxml" />
+      <root url="jar://$PROJECT_DIR$/../proyectofinalavance2_bl/out/artifacts/proyectofinalavance2_ui_jar/proyectofinalavance2_ui.jar!/javafx.graphics" />
+      <root url="jar://$PROJECT_DIR$/../proyectofinalavance2_bl/out/artifacts/proyectofinalavance2_ui_jar/proyectofinalavance2_ui.jar!/javafx.media" />
+      <root url="jar://$PROJECT_DIR$/../proyectofinalavance2_bl/out/artifacts/proyectofinalavance2_ui_jar/proyectofinalavance2_ui.jar!/javafx.swing" />
+      <root url="jar://$PROJECT_DIR$/../proyectofinalavance2_bl/out/artifacts/proyectofinalavance2_ui_jar/proyectofinalavance2_ui.jar!/javafx.web" />
+    </SOURCES>
+  </library>
+</component>

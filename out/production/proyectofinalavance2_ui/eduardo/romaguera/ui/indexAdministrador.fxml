@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eduardo.romaguera.tl.IndexAdministradorController">
+    <children>
+        <Rectangle fx:id="sqrItemID" arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="729.0" layoutX="-8.0" layoutY="-7.0" stroke="BLACK" strokeType="INSIDE" width="1288.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="129.0" layoutY="-5.0" stroke="BLACK" strokeType="INSIDE" width="1280.0" />
+        <Label fx:id="txtItem" layoutX="603.0" layoutY="16.0" text="WE RUN" textFill="#1e1e1e">
+            <font>
+                <Font name="Segoe UI Semibold" size="60.0" />
+            </font>
+        </Label>
+        <Label fx:id="btnRegistrarCliente" layoutX="487.0" layoutY="160.0" stylesheets="@styles.css" text="Bienvenido" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI" size="30.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor>
+        </Label>
+        <ImageView fitHeight="114.0" fitWidth="130.0" layoutX="421.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@resources/icon.png" />
+            </image>
+            <effect>
+                <ColorAdjust brightness="-1.0" />
+            </effect>
+        </ImageView>
+      <Label fx:id="btnCerrarSesion" layoutX="1152.0" layoutY="682.0" onMouseClicked="#cerrarSesion" styleClass="hipervinculable" stylesheets="@styles.css" text="Cerrar sesión" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="87.0" layoutY="295.0" onMouseClicked="#registrarReto" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="txtNombreAdministrador" layoutX="652.0" layoutY="160.0" prefHeight="37.0" prefWidth="350.0" stylesheets="@styles.css" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Label fx:id="btnRegistrarReto" layoutX="141.0" layoutY="304.0" onMouseClicked="#registrarReto" prefHeight="59.0" prefWidth="115.0" stylesheets="@styles.css" text="Registrar Reto">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="88.0" layoutY="490.0" onMouseClicked="#registrarActividadDeportiva" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto1" layoutX="109.0" layoutY="498.0" onMouseClicked="#registrarActividadDeportiva" prefHeight="59.0" prefWidth="176.0" stylesheets="@styles.css" text="Registrar Act. Deportiva">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Label fx:id="txtNombreAdministrador2" layoutX="7.0" layoutY="676.0" prefHeight="37.0" prefWidth="440.0" stylesheets="@styles.css" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="730.0" layoutY="246.0" onMouseClicked="#registrarPais" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto11" layoutX="785.0" layoutY="252.0" onMouseClicked="#registrarPais" prefHeight="59.0" prefWidth="102.0" stylesheets="@styles.css" text="Registrar Pais">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="730.0" layoutY="442.0" onMouseClicked="#registrarCanton" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto111" layoutX="774.0" layoutY="450.0" onMouseClicked="#registrarCanton" prefHeight="59.0" prefWidth="123.0" stylesheets="@styles.css" text="Registrar Canton">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="730.0" layoutY="343.0" onMouseClicked="#registrarProvincia" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto1111" layoutX="763.0" layoutY="348.0" onMouseClicked="#registrarProvincia" prefHeight="59.0" prefWidth="147.0" stylesheets="@styles.css" text="Registrar Provincia">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="730.0" layoutY="539.0" onMouseClicked="#registrarDistrito" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto1112" layoutX="774.0" layoutY="544.0" onMouseClicked="#registrarDistrito" prefHeight="59.0" prefWidth="123.0" stylesheets="@styles.css" text="Registrar Distrito">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="982.0" layoutY="246.0" onMouseClicked="#listarPais" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto112" layoutX="1053.0" layoutY="254.0" onMouseClicked="#listarPais" prefHeight="59.0" prefWidth="77.0" stylesheets="@styles.css" text="Listar Pais">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="982.0" layoutY="343.0" onMouseClicked="#listarProvincia" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto1121" layoutX="1030.0" layoutY="351.0" onMouseClicked="#listarProvincia" prefHeight="59.0" prefWidth="115.0" stylesheets="@styles.css" text="Listar Provincia">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="982.0" layoutY="442.0" onMouseClicked="#listarCanton" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto11211" layoutX="1036.0" layoutY="449.0" onMouseClicked="#listarCanton" prefHeight="59.0" prefWidth="115.0" stylesheets="@styles.css" text="Listar Canton">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="984.0" layoutY="539.0" onMouseClicked="#listarDistrito" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto112111" layoutX="1032.0" layoutY="545.0" onMouseClicked="#listarDistrito" prefHeight="59.0" prefWidth="115.0" stylesheets="@styles.css" text="Listar Distrito">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="339.0" layoutY="297.0" onMouseClicked="#listarReto" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto1122" layoutX="399.0" layoutY="305.0" onMouseClicked="#listarReto" prefHeight="59.0" prefWidth="77.0" stylesheets="@styles.css" text="Listar Reto">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="338.0" layoutY="490.0" onMouseClicked="#listarActividadDeportiva" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto11221" layoutX="358.0" layoutY="496.0" onMouseClicked="#listarActividadDeportiva" prefHeight="59.0" prefWidth="193.0" stylesheets="@styles.css" text="Listar Actividad Deportiva">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="87.0" layoutY="392.0" onMouseClicked="#registrarHito" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto2" layoutX="139.0" layoutY="400.0" onMouseClicked="#registrarHito" prefHeight="59.0" prefWidth="115.0" stylesheets="@styles.css" text="Registrar Hito">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="74.0" layoutX="339.0" layoutY="393.0" onMouseClicked="#listarHitos" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="btnRegistrarReto11222" layoutX="406.0" layoutY="400.0" onMouseClicked="#listarHitos" prefHeight="59.0" prefWidth="77.0" stylesheets="@styles.css" text="Listar Hito">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+    </children>
+</Pane>

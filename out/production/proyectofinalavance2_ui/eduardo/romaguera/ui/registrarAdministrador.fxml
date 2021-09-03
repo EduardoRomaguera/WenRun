@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eduardo.romaguera.tl.RegistrarAdministradorController">
+    <children>
+        <Rectangle fx:id="sqrItemID" arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="729.0" layoutX="-8.0" layoutY="-7.0" stroke="BLACK" strokeType="INSIDE" width="1288.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#689f38" height="129.0" layoutY="-5.0" stroke="BLACK" strokeType="INSIDE" width="1280.0" />
+        <Label fx:id="txtItem" layoutX="603.0" layoutY="16.0" text="WE RUN" textFill="#1e1e1e">
+            <font>
+                <Font name="Segoe UI Semibold" size="60.0" />
+            </font>
+        </Label>
+        <Label fx:id="btnRegistrarCliente" layoutX="386.0" layoutY="167.0" stylesheets="@styles.css" text="Registro del administrador del sistema" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI" size="30.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor>
+        </Label>
+        <ImageView fitHeight="114.0" fitWidth="130.0" layoutX="421.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@resources/icon.png" />
+            </image>
+            <effect>
+                <ColorAdjust brightness="-1.0" />
+            </effect>
+        </ImageView>
+        <TextField fx:id="txtNombre" layoutX="401.0" layoutY="266.0" prefHeight="25.0" prefWidth="225.0" promptText="Nombre" />
+        <Label fx:id="btnRegistrarCliente11" layoutX="401.0" layoutY="239.0" stylesheets="@styles.css" text="Nombre" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor>
+        </Label>
+        <TextField fx:id="txtApellidos" layoutX="655.0" layoutY="267.0" prefHeight="25.0" prefWidth="225.0" promptText="Apellidos" />
+        <Label fx:id="btnRegistrarCliente111" layoutX="655.0" layoutY="240.0" stylesheets="@styles.css" text="Apellidos" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor>
+        </Label>
+        <TextField fx:id="txtIdentificacion" layoutX="401.0" layoutY="391.0" prefHeight="25.0" prefWidth="225.0" promptText="Identificación" />
+        <Label fx:id="btnRegistrarCliente11111" layoutX="401.0" layoutY="364.0" stylesheets="@styles.css" text="Identificación" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor>
+        </Label>
+        <Label fx:id="btnRegistrarCliente112" layoutX="657.0" layoutY="364.0" stylesheets="@styles.css" text="País" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor>
+        </Label>
+        <TextField fx:id="txtEmail" layoutX="395.0" layoutY="508.0" prefHeight="25.0" prefWidth="225.0" promptText="Email (usuario)" />
+        <Label fx:id="btnRegistrarCliente1121" layoutX="395.0" layoutY="481.0" stylesheets="@styles.css" text="Email (usuario)" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI" size="20.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor>
+        </Label>
+        <Button fx:id="btnRegistrar" layoutX="563.0" layoutY="604.0" mnemonicParsing="false" onAction="#registrarNuevoAdministrador" prefHeight="37.0" prefWidth="154.0" styleClass="btn" stylesheets="@styles.css" text="Registrar" />
+      <Label fx:id="btnLogin" layoutX="583.0" layoutY="667.0" onMouseClicked="#login" styleClass="hipervinculable" stylesheets="@styles.css" text="Iniciar sesión" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="btnRegistrarCliente112321" layoutX="660.0" layoutY="482.0" stylesheets="@styles.css" text="Contraseña" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+      <TextField fx:id="txtContrasena" layoutX="660.0" layoutY="509.0" prefHeight="25.0" prefWidth="225.0" promptText="Contraseña" />
+      <ComboBox fx:id="txtPais" layoutX="655.0" layoutY="394.0" prefWidth="150.0" promptText="Pais" />
+    </children>
+</Pane>
